@@ -1,4 +1,4 @@
-# CRYPTOCURRENCY AUCTION MANAGEMENT SYSTEM
+# Cryptocurrency Auction Management System
 
 Implementing a mobile application to bid for cryptocurrency in the market
 
