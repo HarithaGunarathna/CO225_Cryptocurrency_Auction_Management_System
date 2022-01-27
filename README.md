@@ -1,8 +1,8 @@
-#CRYPTOCURRENCY AUCTION MANAGEMENT SYSTEM
+# CRYPTOCURRENCY AUCTION MANAGEMENT SYSTEM
 
 Implementing a mobile application to bid for cryptocurrency in the market
 
-##Group members
+## Group members
 
 E/18/118 Gunarathna H.P.H.M
 
