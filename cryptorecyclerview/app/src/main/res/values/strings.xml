@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">crypto recycler view</string>
+
+    <string-array name="currencires">
+        <item>bitcoin</item>
+        <item>ethereum</item>
+        <item>ripple</item>
+        <item>bitcoin_cash</item>
+        <item>litecoin</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>this is a random description</item>
+        <item>this is a random description</item>
+        <item>this is a random description</item>
+        <item>this is a random description</item>
+        <item>this is a random description</item>
+    </string-array>
+
+
+
+</resources>
