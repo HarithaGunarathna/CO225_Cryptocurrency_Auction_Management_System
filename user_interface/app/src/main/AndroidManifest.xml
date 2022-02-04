@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user_interface">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.User_interface">
+        <activity
+            android:name=".BidMarketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientHome"
+            android:exported="false" />
+        <activity
+            android:name=".CreateANewAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInAsAClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectLoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
