@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.User_interface">
         <activity
-            android:name=".BidMarketActivity"
+            android:name=".ActivityCurrencyRow"
             android:exported="false" />
+        <activity
+            android:name=".BidMarketActivity"
+            android:exported="false"
+            android:label="Market" />
         <activity
             android:name=".ClientHome"
             android:exported="false" />

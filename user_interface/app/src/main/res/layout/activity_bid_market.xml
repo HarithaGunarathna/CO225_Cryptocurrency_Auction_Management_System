@@ -10,9 +10,10 @@
     tools:context=".BidMarketActivity">
 
     <ListView
+        android:id="@+id/window_list_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/window_list">
+        android:dividerHeight="0dp">
 
     </ListView>
 

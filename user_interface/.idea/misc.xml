@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/cryptocurrency_project/user_interface/app/src/main/res/layout/activity_bid_market.xml" value="0.264" />
+        <entry key="..\:/cryptocurrency_project/user_interface/app/src/main/res/layout/activity_bid_market.xml" value="0.22813688212927757" />
         <entry key="..\:/cryptocurrency_project/user_interface/app/src/main/res/layout/activity_client_home.xml" value="0.1" />
+        <entry key="..\:/cryptocurrency_project/user_interface/app/src/main/res/layout/activity_currency_row.xml" value="0.264" />
         <entry key="..\:/cryptocurrency_project/user_interface/app/src/main/res/layout/activity_log_in_as_aclient.xml" value="0.25" />
         <entry key="..\:/cryptocurrency_project/user_interface/app/src/main/res/layout/activity_main.xml" value="0.16799999999999998" />
         <entry key="..\:/cryptocurrency_project/user_interface/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
