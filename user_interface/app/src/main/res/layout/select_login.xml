@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectLoginActivity">
+
+    <Button
+        android:id="@+id/btnCreateANewAccount"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:text="Create a new Account"
+        android:textSize="30dp"
+        android:layout_margin="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:onClick="createANewAccount"/>
+
+
+    <Button
+        android:id="@+id/btnSignAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:text="Sign in As An Admin"
+        android:textSize="22dp"
+        android:layout_margin="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCreateANewAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSignClient"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:text="Sign in As A Client"
+        android:textSize="22dp"
+        android:layout_margin="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:onClick="signInAsAClient"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
