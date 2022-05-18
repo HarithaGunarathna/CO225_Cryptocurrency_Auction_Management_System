@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">877442690769-inap2nkft7lc048b6emp8q4ipvhkg5v3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cryptolite-c8111-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">877442690769</string>
+    <string name="google_api_key" translatable="false">AIzaSyCM5tahDlw5124O9fSDSUkJQLC-mpLUAyY</string>
+    <string name="google_app_id" translatable="false">1:877442690769:android:97b0958af1615fc9dadff0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCM5tahDlw5124O9fSDSUkJQLC-mpLUAyY</string>
+    <string name="google_storage_bucket" translatable="false">cryptolite-c8111.appspot.com</string>
+    <string name="project_id" translatable="false">cryptolite-c8111</string>
+</resources>

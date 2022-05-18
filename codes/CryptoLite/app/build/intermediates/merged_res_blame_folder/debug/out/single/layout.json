@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin_login.xml",
+        "source": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\src\\main\\res\\layout\\activity_admin_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item.xml",
+        "source": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_in_as_auser.xml",
+        "source": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\src\\main\\res\\layout\\activity_sign_in_as_auser.xml"
+    },
+    {
+        "merged": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_user_home_page.xml",
+        "source": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\src\\main\\res\\layout\\activity_user_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_create_user_account.xml",
+        "source": "C:\\Users\\HARITHA\\Com\\CO225\\src\\Crypto\\Code\\CO225_Cryptocurrency_Auction_Management_System\\codes\\CryptoLite\\app\\src\\main\\res\\layout\\activity_create_user_account.xml"
+    }
+]

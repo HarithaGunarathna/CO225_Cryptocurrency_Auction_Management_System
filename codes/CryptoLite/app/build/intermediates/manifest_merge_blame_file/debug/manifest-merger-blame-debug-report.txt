@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cryptolite"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:5:5-33:19
+17        android:allowBackup="true"
+17-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\HARITHA\.gradle\caches\transforms-3\80675c4f62d47f19c7c90e719f8042f5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:7:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:8:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:9:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:10:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.CryptoLite" >
+25-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:11:9-48
+26        <activity
+26-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:12:9-14:40
+27            android:name="com.example.cryptolite.UserHomePage"
+27-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:13:13-41
+28            android:exported="false" />
+28-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:14:13-37
+29        <activity
+29-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:15:9-17:40
+30            android:name="com.example.cryptolite.AdminLogin"
+30-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:16:13-39
+31            android:exported="false" />
+31-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:17:13-37
+32        <activity
+32-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:18:9-20:40
+33            android:name="com.example.cryptolite.CreateUserAccount"
+33-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:19:13-46
+34            android:exported="false" />
+34-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:20:13-37
+35        <activity
+35-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:21:9-23:40
+36            android:name="com.example.cryptolite.SignInAsAUser"
+36-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:22:13-42
+37            android:exported="false" />
+37-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:23:13-37
+38        <activity
+38-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:24:9-32:20
+39            android:name="com.example.cryptolite.MainActivity"
+39-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:25:13-41
+40            android:exported="true" >
+40-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:26:13-36
+41            <intent-filter>
+41-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:27:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:28:17-69
+42-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:28:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:30:17-77
+44-->C:\Users\HARITHA\Com\CO225\src\Crypto\Code\CO225_Cryptocurrency_Auction_Management_System\codes\CryptoLite\app\src\main\AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+50            android:directBootAware="true"
+50-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HARITHA\.gradle\caches\transforms-3\88ac0c7abdcf98feb583952ad72badf9\transformed\firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+51            android:exported="false" >
+51-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+52            <meta-data
+52-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+53                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+53-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-database:19.2.1] C:\Users\HARITHA\.gradle\caches\transforms-3\e308c305a236e41a2b697625ecdb3a60\transformed\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+55        </service>
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\d2df8645308a4e2c2dd76d64d5d7c4aa\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\d2df8645308a4e2c2dd76d64d5d7c4aa\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\d2df8645308a4e2c2dd76d64d5d7c4aa\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\d2df8645308a4e2c2dd76d64d5d7c4aa\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+61
+62        <provider
+62-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HARITHA\.gradle\caches\transforms-3\88ac0c7abdcf98feb583952ad72badf9\transformed\firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+63            android:name="com.google.firebase.provider.FirebaseInitProvider"
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HARITHA\.gradle\caches\transforms-3\88ac0c7abdcf98feb583952ad72badf9\transformed\firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+64            android:authorities="com.example.cryptolite.firebaseinitprovider"
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HARITHA\.gradle\caches\transforms-3\88ac0c7abdcf98feb583952ad72badf9\transformed\firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+65            android:exported="false"
+65-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HARITHA\.gradle\caches\transforms-3\88ac0c7abdcf98feb583952ad72badf9\transformed\firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+66            android:initOrder="100" />
+66-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HARITHA\.gradle\caches\transforms-3\88ac0c7abdcf98feb583952ad72badf9\transformed\firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\401f8f3514acfe2db9439fc2f3352b39\transformed\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\401f8f3514acfe2db9439fc2f3352b39\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\401f8f3514acfe2db9439fc2f3352b39\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+74            android:authorities="com.example.cryptolite.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HARITHA\.gradle\caches\transforms-3\b266ddf9015fc899ae38fb26fbd8b00e\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HARITHA\.gradle\caches\transforms-3\8dbae83d3e13ececffdf9dba7d200cf0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HARITHA\.gradle\caches\transforms-3\8dbae83d3e13ececffdf9dba7d200cf0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HARITHA\.gradle\caches\transforms-3\8dbae83d3e13ececffdf9dba7d200cf0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+82        </provider>
+83    </application>
+84
+85</manifest>

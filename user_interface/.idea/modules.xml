@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user_interface.iml" filepath="$PROJECT_DIR$/.idea/modules/user_interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/user_interface.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/user_interface.app.iml" />
-    </modules>
-  </component>
-</project>
