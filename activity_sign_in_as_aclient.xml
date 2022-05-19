@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInAsAClientActivity"
+    android:background="@drawable/backgroumd">
+
+    <TextView
+        android:id="@+id/textViewAccountNumber"
+        android:layout_width="218dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="User ID"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextAccountNumber"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewUserName2"
+        android:layout_width="113dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="4dp"
+        android:text="Password :"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextAccountNumber"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:hint="   Enter your ID"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textViewUserName2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:hint="    Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="106dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/custom_button_2"
+        android:onClick="signInAsAClient"
+        android:text="Go"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
