@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroumd"
+    tools:context=".CreateANewAccountActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="218dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="44dp"
+        android:text="E mail"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPhoneID"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewEnterName"
+        android:layout_width="218dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="44dp"
+        android:text="User Name"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPersonNameId"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="159dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_button_2"
+        android:onClick="signInAsAClient"
+        android:text="Create"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <EditText
+        android:id="@+id/editTextPersonNameId"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:hint="   User Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPhoneID"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:hint="   E mail"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="218dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:text="Password"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPasswordID"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textPassword2"
+        android:layout_width="218dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:text="Phone Number"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPasswordID2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textPassword3"
+        android:layout_width="218dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="48dp"
+        android:text="Buying Power"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPasswordID3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPasswordID"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:hint="   Password"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textPassword2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPasswordID2"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:hint="   Phone Number"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textPassword3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPasswordID3"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
+        android:ems="10"
+        android:hint="   Enter your account balance"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
